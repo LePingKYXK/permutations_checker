@@ -4,8 +4,8 @@ First of all, the user would provide the directory, which contains the output su
 The script will findi all permutations.txt files in the subdirectories and then read the permutations information one file by another. In each `permutations.txt` file, collecting and counting the unique permutations then save them in a `.csv` file.
 
 ## Modules required:
-Numpy (version 1.13.0 or above)
-Pandas (version 1.19.0 or above)
+- Numpy (version 1.13.0 or above)
+- Pandas (version 1.19.0 or above)
 
 ## Usage
 `python` `permutations_checker.py` `PATH` `METHOD`
