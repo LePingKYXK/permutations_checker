@@ -11,5 +11,5 @@ The script will findi all permutations.txt files in the subdirectories and then 
 `python` `permutations_checker.py` `PATH` `METHOD`
 - `PATH`:   the directory go down to the subdirectory of `out_XXXX`, where XXXX is the name of the input file.
           For example, if the directory is like `~/YOUR_DIR/data/calculations/out_XXXX`, then the `PATH` you need to provied is                     `~/YOUR_DIR/data/calculations/`. It is also suitable for the Windows system, *e.g.* `D:\data\calculations\`.
-- `METHOD`: the cutting method and the residure for the proteins, *e.g.* Ramachandran_ALA.
-          It is just for clarification of the name of `.csv` file.
+- `METHOD`: the cutting method and the residure for the proteins, *e.g.* **Ramachandran_ALA**.
+          It is just for clarification of the name of `.csv` file. For example, if you provided **Ramachandran_ALA**, then the output file name will be `permuations_Ramachandran_ALA.csv`
